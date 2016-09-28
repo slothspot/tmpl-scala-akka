@@ -7,10 +7,10 @@ organization := "name.dmitrym"
 scalaVersion := "2.11.8"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-actor" % "2.4.9",
-  "com.typesafe.akka" %% "akka-testkit" % "2.4.9" % "test",
-  "org.specs2" %% "specs2-core" % "3.8.4" % "test",
-  "org.specs2" %% "specs2-scalacheck" % "3.8.4" % "test"
+  "com.typesafe.akka" %% "akka-actor" % "2.4.10",
+  "com.typesafe.akka" %% "akka-testkit" % "2.4.10" % "test",
+  "org.specs2" %% "specs2-core" % "3.8.5" % "test",
+  "org.specs2" %% "specs2-scalacheck" % "3.8.5" % "test"
 )
 
 scalacOptions ++= Seq(
